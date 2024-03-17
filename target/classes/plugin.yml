@@ -1,0 +1,11 @@
+name: AutoClearPlugin
+version: 2.7
+main: com.autoclearplugin.AutoClearPlugin
+author: FireTomcat302
+description: A plugin for automatic item drop cleanup with manual control.
+
+commands:
+  autoclear:
+    description: Main command for AutoClearPlugin
+    usage: /autoclear <reload|manual>
+    permission: autoclear.use
